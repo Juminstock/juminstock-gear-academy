@@ -1,6 +1,3 @@
 <h1 align="center">Rust</h1>
 Proyecto con  rust.
-First
-Second
-Third
-Fourth
+Firs
