@@ -1,0 +1,18 @@
+[package]
+name = "pebbles-game"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gstd = { git = "https://github.com/gear-tech/gear.git", tag = "v1.2.0" }
+pebbles-game-io.path = "io"
+
+[build-dependencies]
+gear-wasm-builder = { git = "https://github.com/gear-tech/gear.git", tag = "v1.2.0" }
+pebbles-game-io.path = "io"
+
+[dev-dependencies]
+gtest = { git = "https://github.com/gear-tech/gear.git", tag = "v1.2.0" }
+pebbles-game-io.path = "io"
